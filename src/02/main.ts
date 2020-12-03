@@ -1,6 +1,5 @@
 import { getLines } from "../utils"
 import * as R from "ramda"
-import { createInflateRaw } from "zlib"
 
 interface passwordRecord {
     min: number,
