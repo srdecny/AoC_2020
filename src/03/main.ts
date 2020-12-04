@@ -22,7 +22,6 @@ const grid: Grid<GridObjects> = getLines("input.txt").reduce((acc: Grid<GridObje
     return acc
 }, new Grid<GridObjects>())
 
-console.log(grid)
 const part1 = R.range(0, grid.maxY).map(i => grid.get(3*i, i)).filter(R.equals(GridObjects.TREE)).length
 console.log(`Part 1: ${part1}`)
 
