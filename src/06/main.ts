@@ -15,7 +15,7 @@ const groups: string[] = getLines("input.txt").concat("").reduce((acc, c) => {
 } as any).grps
 
 
-const part1 = groups.reduce((acc: number, group) => {
+const part1 = groups.reduce((acc: number, group: string) => {
     return acc += [..."abcdefghijklmnopqrstuvwxyz"].filter(char => RegExp(`${char}`).test(group)).length
 }, 0)
 
