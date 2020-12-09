@@ -1,7 +1,5 @@
 import { getLines } from "../utils"
 import * as R from "ramda"
-import { stat } from "fs"
-import { STATUS_CODES } from "http"
 
 enum Op {
     JMP,
