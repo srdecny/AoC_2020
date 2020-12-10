@@ -1,7 +1,6 @@
 import { getLines, range } from "../utils"
 import * as R from "ramda"
 
-
 interface Sum {
    n: number,
    pairs: number[]
