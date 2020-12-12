@@ -19,7 +19,7 @@ const createPass = (line: string): Pass => {
     }
 }
 
-const calculateSeatId = (p: Pass): number => { return p.column + p.row * 8}
+const calculateSeatId = (p: Pass): number => { return p.column + p.row * 8 }
 
 const passes = getLines("input.txt").map(createPass).sort()
 const part1 = Math.max(...passes.map(calculateSeatId))
