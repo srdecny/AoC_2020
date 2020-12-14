@@ -1,6 +1,5 @@
 import { getLines } from "../utils"
 import * as R from "ramda"
-import { exception } from "console"
 
 const lines = getLines("input.txt")
 const start = Number(lines[0])
