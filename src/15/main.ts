@@ -1,6 +1,5 @@
 import { getLines } from "../utils"
 import * as R from "ramda"
-import { access, truncate } from "fs"
 
 
 interface Game {
